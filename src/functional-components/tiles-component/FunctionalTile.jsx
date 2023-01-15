@@ -6,7 +6,7 @@ export const FunctionalTile = () => {
         <div className='tile'>
             <h3>This is created using functional component</h3>
             <h4>This is done using external CSS</h4>
-            <h5>This is done using inline CSS</h5>
+            <h5 style={{color: 'blue'}}>This is done using inline CSS</h5>
         </div>
     )
 }

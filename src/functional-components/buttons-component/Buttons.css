@@ -23,7 +23,7 @@ h3 {
 .tile-section {
     display: flex;
     margin-top: 300px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .tile-item {

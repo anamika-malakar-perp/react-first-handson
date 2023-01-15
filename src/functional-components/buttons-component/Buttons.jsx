@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const Buttons = () => {
     const [functionShow, setshow]=useState(false);
-    const [classShow, setClassShow]=useState(false);
+    const [classShow, setClassShow]=useState(false); //classshow is state and setclassshow function
     const clickedFunctional = () => {
         setshow(!functionShow);
     }
